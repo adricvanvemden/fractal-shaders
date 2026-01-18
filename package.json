@@ -1,0 +1,21 @@
+{
+  "author": "Adric van Vemden",
+  "name": "webgpu-shaders",
+  "version": "1.0.0",
+  "description": "Shaders for WebGPU",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "dat.gui": "^0.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.5"
+  },
+  "packageManager": "npm@9.8.1"
+}
