@@ -1,14 +1,10 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: './',
+  base: "/fractal-shaders/",
   build: {
     outDir: 'dist',
     emptyOutDir: true,
-  },
-  server: {
-    port: 3000,
-    open: false, // This will open the browser automatically
   },
     plugins: [
       {
@@ -22,5 +18,6 @@ export default defineConfig({
           }
         }
       }
-    ]
+    ],
+     publicDir: 'shaders',
 })

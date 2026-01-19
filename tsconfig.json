@@ -8,6 +8,6 @@
       "strict": true,
       "esModuleInterop": true
     },
-    "include": ["src/**/*", "../WebGPU.d.ts"],
+    "include": ["src/**/*", "WebGPU.d.ts"],
     "exclude": ["node_modules"]
   }

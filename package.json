@@ -3,8 +3,11 @@
   "name": "webgpu-shaders",
   "version": "1.0.0",
   "description": "Shaders for WebGPU",
+  "homepage": "https://adricvanVemden.github.io/fractal-shaders/",
   "main": "dist/bundle.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -15,7 +18,7 @@
   },
   "devDependencies": {
     "typescript": "^5.6.2",
-    "vite": "^5.4.5"
-  },
+    "vite": "^5.4.5",
+    "vite-plugin-static-copy": "^3.1.4"  },
   "packageManager": "npm@9.8.1"
 }
