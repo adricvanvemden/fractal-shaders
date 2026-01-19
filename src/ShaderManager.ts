@@ -1,7 +1,7 @@
 export class ShaderManager {
     static async loadShader(name: string): Promise<{ vertex: string; fragment: string }> {
-        const vertexPath = `/shaders/default_vertex.wgsl`;
-        const fragmentPath = `/shaders/${name}_fragment.wgsl`;
+        const vertexPath = `./shaders/default_vertex.wgsl`;
+        const fragmentPath = `./shaders/${name}_fragment.wgsl`;
         // Load vertex shader
         const vertexResponse = await fetch(vertexPath);
         if (!vertexResponse.ok) {
