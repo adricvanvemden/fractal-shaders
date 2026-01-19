@@ -2,10 +2,6 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   base: "/fractal-shaders/",
-  build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-  },
     plugins: [
       {
         name: 'wgsl-watch',
@@ -18,6 +14,5 @@ export default defineConfig({
           }
         }
       }
-    ],
-     publicDir: 'shaders',
+    ]
 })
