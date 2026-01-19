@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Shaders for WebGPU",
   "homepage": "https://adricvanVemden.github.io/fractal-shaders/",
-  "main": "dist/bundle.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
